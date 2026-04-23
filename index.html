@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bond Productions Ltd</title>
+
+    <!-- Basic styling (you can tweak colours/fonts easily here) -->
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #111;
+            color: #fff;
+        }
+
+        header {
+            background: #000;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            letter-spacing: 2px;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            padding: 80px 20px;
+            text-align: center;
+            background: #222;
+        }
+
+        .section {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .project {
+            background: #222;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #000;
+            font-size: 0.9em;
+        }
+
+        /* Mobile friendly */
+        @media (max-width: 600px) {
+            .projects {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER / NAV -->
+    <header>
+        <h1>Bond Productions Ltd</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#work">Work</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <h2>Creative Video & Media Production</h2>
+        <p>We bring ideas to life through film, storytelling, and visual content.</p>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section">
+        <h2>About</h2>
+        <p>
+            <!-- EDIT THIS -->
+            Bond Productions Ltd is a creative production company specialising in film, media,
+            and visual storytelling. We work with brands, artists, and businesses to create
+            compelling content.
+        </p>
+    </section>
+
+    <!-- PORTFOLIO / WORK -->
+    <section id="work" class="section">
+        <h2>Selected Work</h2>
+
+        <div class="projects">
+
+            <!-- PROJECT 1 -->
+            <div class="project">
+                <h3>Project Title 1</h3>
+                <p>Short description of the project.</p>
+                <!-- Replace with YouTube/Vimeo link -->
+                <a href="#">Watch</a>
+            </div>
+
+            <!-- PROJECT 2 -->
+            <div class="project">
+                <h3>Project Title 2</h3>
+                <p>Short description of the project.</p>
+                <a href="#">Watch</a>
+            </div>
+
+            <!-- Add more projects by copying blocks -->
+
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:louis@bondproductions.co.uk">louis@bondproductions.co.uk</a></p>
+        <p>Phone: +44 7952225690</p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 Bond Productions Ltd</p>
+    </footer>
+
+</body>
+</html>
